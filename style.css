@@ -1,0 +1,17 @@
+.flex-container{
+  display:flex;
+  border: 1px dashed black;
+  height: 400px;
+}
+.odd-item{
+  border: 1px solid red;
+}
+
+.flex-item{
+  width: 25%;
+}
+
+.flex-item > div{
+  height: 100%;
+  width: 100%
+}
